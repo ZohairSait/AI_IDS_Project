@@ -26,17 +26,14 @@ This project is an AI-powered Network Intrusion Detection System (IDS) that dete
 
 ## 📂 Project Structure
 AI_IDS_Project/
-│
-├── live_detect.py        # Real-time packet capture & detection  
-├── app.py                # Flask dashboard backend  
-├── model.h5              # Trained autoencoder model  
-├── scaler.pkl            # Feature scaler  
-├── alerts.json           # Stores detected alerts  
-│
-├── templates/  
-│   └── index.html        # Dashboard UI  
-│
-└── README.md  
+├── live_detect.py # Real-time packet capture & detection
+├── app.py # Flask dashboard backend
+├── model.h5 # Trained autoencoder model
+├── scaler.pkl # Feature scaler
+├── alerts.json # Stores detected alerts
+├── templates/
+│ └── index.html # Dashboard UI
+└── README.md
 
 ## ⚙️ Installation
 pip install scapy tensorflow flask numpy pandas joblib
