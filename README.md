@@ -85,5 +85,3 @@ Expected: Detected as ICMP Flood
 
 
 
-## ⭐ If you found this useful
-Give this repo a star ⭐
